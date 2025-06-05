@@ -13,7 +13,7 @@ To repozytorium jest częścią projektu na przedmiot Bezpieczeństwo systemów 
 ## Wymagania
 
 - Python 3.x
-- Biblioteki: `bcrypt`, `argon2-cffi`
+- Biblioteki: `bcrypt`
 
 Instalacja zależności:
 
@@ -38,7 +38,6 @@ python main.py
 - SHA-1
 - SHA-256
 - bcrypt
-- argon2
 
 ## Licencja
 
