@@ -1,5 +1,4 @@
 import hashlib
-from argon2 import PasswordHasher
 import bcrypt
 
 def hash_md5(passwords):
@@ -27,13 +26,6 @@ def hash_sha256(passwords):
         sha256_hash = hashlib.sha256()
         sha256_hash.update(password_bytes)
         hashed_passwords.append(sha256_hash.hexdigest())
-    return hashed_passwords
-
-def hash_argon2(passwords):
-    ph = PasswordHasher()
-    hashed_passwords = []
-    for password in passwords:
-        hashed_passwords.append(ph.hash(password))
     return hashed_passwords
 
 def hash_bcrypt(passwords):
