@@ -1,6 +1,6 @@
 # Bezpieczne przechowywanie haseł w aplikacjach
 
-To repozytorium jest częśćią projektu na przedmiot Bezpieczeństwo systemów informatycznych "Bezpieczne przechowywanie haseł w aplikacjach.". Zawiera implementacje popularnych algorytmów haszujących, takich jak MD5, SHA-1, SHA-256, bcrypt oraz argon2 (argon2-cffi).
+To repozytorium jest częścią projektu na przedmiot Bezpieczeństwo systemów informatycznych "Bezpieczne przechowywanie haseł w aplikacjach.". Zawiera implementacje popularnych algorytmów haszujących, takich jak MD5, SHA-1, SHA-256, bcrypt oraz argon2 (argon2-cffi).
 
 ## Pliki
 
